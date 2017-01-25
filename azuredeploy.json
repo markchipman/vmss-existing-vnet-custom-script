@@ -40,7 +40,8 @@
       "type": "string",
       "metadata": {
         "description": "Resource ID of the existing subnet to deploy the scale set into. Should be of the form: /subscriptions/YOUR_SUBSCRIPTION_ID/resourceGroups/YOUR_RESOURCE_GROUP/providers/Microsoft.Network/virtualNetworks/YOUR_VNET_NAME/subnets/YOUR_SUBNET_NAME"
-      }
+      },
+      "defaultValue": "/subscriptions/9f1b7175-27e5-443b-ab83-2ff9e6fd6cd3/resourceGroups/kemrg02/providers/Microsoft.Network/virtualNetworks/kemtest-vnet/subnets/feSubnet"
     },
     "_artifactsLocation": {
       "defaultValue": "https://raw.githubusercontent.com/robotechredmond/vmss-existing-vnet-custom-script/master",
